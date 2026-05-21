@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ownersService, petsService } from '../services/resourcesService';
-import '../styles/PetsOwnersPage.css'
+import '../styles/PetsOwnersPage.css';
 
 const emptyForm = {
     name: '',
@@ -32,10 +32,8 @@ export default function PetsPage() {
             const ownersData = await ownersService.list();
             setPets(petsData);
             setOwners(ownersData);
-            <br></br>
         } catch (error) {
-            setMessage('Erro ao carregar os dados.   ');
-            <br></br>
+            setMessage('Erro ao carregar os dados.');
         } finally {
             setLoading(false);
         }

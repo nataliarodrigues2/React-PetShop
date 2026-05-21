@@ -26,10 +26,8 @@ export default function OwnersPage() {
             setLoading(true);
             const data = await ownersService.list();
             setOwners(data);
-            <br></br>
         } catch (error) {
-            setMessage('Erro ao carregar donos.   ');
-            <br></br>
+            setMessage('Erro ao carregar donos.');
         } finally {
             setLoading(false);
         }

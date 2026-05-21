@@ -14,3 +14,5 @@ export default function NavBar() {
         </nav>
     );
 }
+
+// barra de navegação das páginas, com links para o dashboard, donos e pets
