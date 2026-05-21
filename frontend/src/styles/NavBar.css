@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background: #2C7A7B;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar h2 {
+    margin: 0;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}

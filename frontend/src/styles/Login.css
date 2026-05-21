@@ -1,0 +1,58 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* container do login */
+.login-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* banner */
+.pets-banner {
+    width: 300px;
+    margin-bottom: -37px;
+    z-index: 2;
+}
+
+/* card */
+.login-page form {
+    width: 350px;
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+}
+
+/* título */
+.login-page h1 {
+    margin-bottom: 20px;
+    color: #3D405B;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* inputs */
+.login-page input {
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #3D405B;
+}
+
+/* botão */
+.login-page button {
+    background: #81B29A;
+    cursor: pointer;
+}
+
+/* imagem inferior */
+.pets-bottom {
+    width: 500px;
+    padding: 10px;
+    margin-top: 250px;
+}
+
